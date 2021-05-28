@@ -1,0 +1,322 @@
+@import url('reset.css');
+@font-face {
+        font-family: 'GmarketSansBold';
+        src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+        font-weight: normal;
+        font-style: normal;
+        }
+
+#wrap{ width: 100%; overflow : hidden;}
+
+/* 헤더 */
+#header_wrap{ position: absolute; top: 0; width : 100%; overflow : hidden;}
+#header { position: relative; width : 1200px; height : 150px; margin : 0 auto; }
+
+#header h1{ float : left; padding-top: 30px; }
+#header h1 img{ max-width : 100%; height : auto;  }
+ul.top_menu{ position : absolute; top: 5px; right : 0;  }
+ul.top_menu li{  float : left; padding : 10px 0 0 20px;   }
+ul.top_menu li.line{ color : #aaa;  }
+ul.top_menu li a{ color : #aaa; font-size: 15px;  }
+ul.top_menu li a:hover{ color: #000; }
+
+nav { float: right; }
+nav ul.gnb{ margin : 80px 10px 0 0;  }
+nav ul.gnb li{ float : left; padding : 0 0 0 30px;   }
+nav ul.gnb li a{ color : #aaa;  font-size: 18px;  }
+nav ul.gnb li a:hover{ color : #fff;   }
+li.menu_b { display : none; }
+
+/* 배너 */
+#banner {  width : 100%;  margin-bottom: 150px;}
+#banner img{  max-width : 100%; height : auto; }
+
+
+.b_text_1 { position : absolute; top : 30%; left : 0; 
+        color : #fff;  width: 100%; text-align: center; 
+        font-size: 3vw; font-weight: 300;}
+.b_text_1 span{  color : #fff; font-size : 4rem; font-weight: 800;}
+.b_text_2 { position : absolute; top : 43%; left : 0;
+        color : #fff;  width : 100%; text-align: center; font-size: 2vw; }
+
+
+/* 컨텐츠1 */
+#contents_wrap_1{width : 100%; height : 250px;  margin-bottom: 150px; overflow : hidden;}
+#contents_1{ width : 1200px; height: 250px;   margin : 0 auto; }
+/* 공지사항 */
+.notice {float : left; width : 600px; height: 250px; }
+
+.n_title{font-size : 22px;  padding-bottom: 20px; color : #555;}
+li.n_text {padding-bottom : 5px; }
+li.n_text a{font-size : 18px; color : #555; }
+li.n_text a:hover{color : #000; }
+li.n_text span{padding-left: 130px; }
+
+/* 아이콘 */
+.icon_box {float : left; width : 600px; height: 250px;}
+.icon { float : left; width : 25%; height : 175px; padding-top : 75px; text-align: center;}
+.icon_1{  font-size : 4rem; color : #888;    }
+.icon_1:hover{ color : #000;  }
+
+.icon_text {  padding-top: 20px; }
+.icon_text a{font-size: 16px; color : #888;  font-weight: 400;}
+.icon_text a:hover{ color: #000; }
+
+/* 화덕피자 */
+#contents_wrap_2{width : 100%; height : auto;  margin-bottom: 150px; overflow : hidden;}
+#contents_2{ width : 1200px; height : auto;  margin : 0 auto; }
+.text_box{margin-bottom: 20px; position : relative; }
+.cont_text_1 {font-family: 'GmarketSansBold'; color: #555; font-size : 50px; font-weight: 500; 
+        text-align: center; color: #555; margin-bottom: 10px;}
+.cont_text_2{  font-size : 20px;  text-align: center; color : #555;}
+
+.more{position : absolute; top: 80%; right: 50px; color: #555;}
+.more:hover{color: #000;}
+
+
+
+.cont_1{float : left;  width : 600px; height : 600px; background: #fff; }
+.cont_1 img{ max-width : 100%; height : auto;   }
+.cont_1:hover{opacity: 0.7;}
+.cont_2{float : left;  width : 600px; height : 300px; background: #fff; }
+.cont_2 img{ max-width : 100%; height : auto;   }
+.cont_2:hover{opacity: 0.7;}
+.cont_3{float : left;  width : 600px; height : 300px; background: #fff; }
+.cont_3 img{ max-width : 100%; height : auto;   }
+.cont_3:hover{opacity: 0.7;}
+
+/* 파스타 */
+#contents_wrap_3{width : 100%; height : auto; margin-bottom: 150px; overflow : hidden;}
+#contents_3{width : 1200px; height : auto;  margin : 0 auto; }
+.text_box{margin-bottom: 20px; position : relative;}
+
+.cont_4{float : left;  width : 600px; height : 600px; background: #fff; }
+.cont_4 img{ max-width : 100%; height : auto;   }
+.cont_4_1:hover{opacity: 0.7;}
+
+.cont_6{float : left;  width : 600px; height : 600px; background: #fff; }
+.cont_6 img{ max-width : 100%; height : auto;   }
+.cont_6:hover{opacity: 0.7;}
+
+/* 추천메뉴 */
+
+#contents_wrap_4{width : 100%; height : auto;  margin-bottom: 150px;  overflow : hidden;}
+#contents_4{width : 1200px; height : auto;  margin : 0 auto; }
+.cont_box{ position :relative;  background : #000; }
+.left_cont{  float : left; width : 600px; height: 536px;  }
+.left_cont img{ max-width : 100%; height : auto;   }
+.left_cont:hover{  opacity: 0.7;  }
+
+.right_cont{ float : left; width : 600px; height: 536px; }
+.right_cont img{ max-width : 100%; height : auto; }
+.right_cont:hover{ opacity: 0.7; }
+
+.left{ position : absolute; width : 600px; height: 150px; background : rgba(0, 0, 0, 0.2); top : 0; left: 0;}
+
+.pizza_b{ font-size : 30px; text-align: center; color : #000; padding-top : 20px; font-weight : 500; }
+.pizza_s{ font-size : 20px; text-align: center; color : #000;}
+
+.right{ position : absolute; width : 600px; height: 150px; background : rgba(0, 0, 0, 0.2); top : 0; right: 0;}
+
+.pasta_b{ font-size : 30px; text-align: center; color : #000; padding-top : 20px; font-weight: 500;}
+.pasta_s{ font-size : 20px; text-align: center; color : #000;}
+
+
+#footer_wrap{  width : 100%; height : 250px; background:url(/images/foot_1.png); background-size: cover;  overflow : hidden;}
+#footer{width : 1200px; height : 250px; margin: 0 auto;}
+
+.f_logo{float : left; padding : 100px 50px 0 0; }
+.f_logo img{ max-width : 100%; height : auto; }
+.foot_text{ float : left; padding : 100px 50px 0 0; font-size : 18px; color : #aaa; }
+.f_sns{float : right; padding : 100px 50px 0 0; font-size : 3rem; color: #aaa;}
+
+
+
+/* 1280 */
+@media(max-width : 1280px){
+        #wrap { width : 100%; }
+
+        #header_wrap { width : 100%; }
+        #header { width : 100%; }
+
+
+
+
+
+
+
+        #contents_wrap_1 { width :100%; margin-bottom : 80px;   }
+        #contents_1{ width : 100%; height: 250px;   margin : 0 auto; }
+        /* 공지사항 */
+        .notice { width : 50%; height: 250px; }
+        .n_text span { display: none;}
+        .icon_box { width : 50%; height : 250px;    }
+
+        /* 화덕피자 */
+        #contents_2 {  width : 100%; height : auto;  }
+
+
+
+        .cont_1 { width : 50%; height : auto;  }
+        .cont_1 img { width : 100%; }
+        .cont_2 { width : 50%; height : auto; }
+        .cont_2 img { width : 100%; }
+        .cont_3 { width : 50%; height : auto; }
+        .cont_3 img { width : 100%; }
+
+        /* 파스타 */
+        #contents_3 { width : 100%; }
+
+        .cont_4 { width : 50%; height : auto;  }
+        .cont_4 img { width : 100%; }
+        .cont_6 { width : 50%;height : auto; }
+        .cont_6 img { width : 100%; }
+
+        /* 추천메뉴 */
+        #contents_4 { width : 100%; }
+        .cont_box { width : 100%; }
+        .left_cont { width : 50%; height : auto; }
+        .left_cont img{ width : 100%; }
+        .left { width : 50%; }
+        .right_cont {width : 50%; height : auto; }
+        .right_cont img{ width : 100%; }
+        .right {width : 50%; }
+
+
+}
+
+
+/* 960 */
+@media(max-width : 960px){
+        #header_wrap { width : 100%;}
+        #header h1{width : 20%; }
+        nav{ width : 80%; }
+
+
+        .top_menu { display : none; }
+        .b_text_1 { display : none; }
+        .b_text_2 { display : none; }
+
+        #contents_wrap_1 { width : 100%; height : auto; }
+        .contents_1{ width : 100%; }
+        .notice { width : 100%;  text-align : center; margin-bottom : 50px;}
+        .n_text span { display: inline;}
+        .n_title { font-family: 'GmarketSansBold'; font-size : 30px;  }
+
+        .icon_box { width : 100%;  border : 1px solid #ccc; height : auto; }
+
+
+
+        .icon {  width : 25%; height : auto; text-align: center; padding : 10px 0 10px 0; }
+        .icon_1{  font-size : 3rem;  }
+
+        
+        .icon_text {  padding-top: 20px; }
+        .icon_text a{font-size: 16px; font-weight: 400;}
+
+
+
+
+
+        .cont_text_1{  font-size : 40px; font-weight: 500; text-align: center; color: #555; margin-bottom: 10px;}
+        .cont_text_2{  font-size : 20px;  text-align: center; }
+
+        .pizza_b{ font-size : 26px; padding : 20px 0;  font-weight : 500; }
+        .pizza_s{ font-size : 18px; }
+        
+        .pasta_b{ font-size : 26px;  padding : 20px 0; font-weight : 500; }
+        .pasta_s{ font-size : 18px; }
+        
+        #footer{ width : 100%;}
+
+        
+}
+
+
+/* 768 */
+@media(max-width : 768px){
+
+
+        nav ul.gnb li a{ font-size: 18px;  }
+
+        .cont_text_1{  font-size : 30px; font-weight: 500; text-align: center; color: #555; margin-bottom: 10px;}
+        .cont_text_2{  font-size : 18px;  text-align: center; }
+
+        .pizza_b{ font-size : 20px; padding : 20px 0;  font-weight : 500; }
+        .pizza_s{ font-size : 16px; }
+        
+        .pasta_b{ font-size : 20px;  padding : 20px 0; font-weight : 500; }
+        .pasta_s{ font-size : 16px; }
+
+        #contents_wrap_4 { margin-bottom: 50px;}
+
+        #footer_wrap{  width : 100%; height : 150px;}
+        #footer{ width : 100%; height : 150px; margin: 0 auto;}
+
+        .f_logo{width : 25%; padding : 50px 40px 0 0; }
+        .f_logo img{ max-width : 100%; height : auto; }
+        .foot_text{ padding : 45px 0px 0 0; font-size : 14px;  }
+        .f_sns{ padding : 45px 20px 0 0; font-size : 2rem;}
+        
+
+}
+
+
+/* 480 */
+@media(max-width : 480px){
+        #header_wrap { width : 100%; height : 238px;}
+        #header { height : 80px;}
+        #header h1{ width : 20%; }
+        nav { width : 80%; }
+        
+        nav ul.gnb{ margin : 42px 5px 0 0;  }
+        nav ul.gnb li{ width : 25%;   padding : 10px 0;  text-align: center; }
+        nav ul.gnb li a{ color : #ccc;  font-size: 12px;  }
+
+        .menu_a { display : none; }
+        .menu_b { display : inline; }
+
+        #banner { margin-bottom: 100px;}
+
+        .notice {float : left;  }
+
+        .n_title{font-size : 28px;  padding-bottom: 20px; color : #555;}
+        li.n_text {padding-bottom : 5px; }
+        li.n_text a{font-size : 14px; }
+        li.n_text span{ display : none;  }
+
+
+        #contents_wrap_2{ margin-bottom: 100px; }
+
+        .more{top: 74%; right: 10px; }
+        .cont_1 { width : 100%; height : auto; }
+        .cont_2 { display : none; }
+        .cont_3 { display : none; }
+
+        #contents_wrap_3{ margin-bottom: 100px; }
+
+
+        .cont_4_1 {display : none; }
+        .cont_6 {  width : 100%; height : auto; }
+
+        #contents_wrap_4 { margin-bottom: 50px;}
+
+        .left_cont { width : 50%; }
+
+
+        .pizza_b{background :rgba(0, 0, 0, 0.2); font-size : 20px; color : #000; font-weight : 500; }
+        .pizza_s { display : none; }
+
+        
+        .right_cont { width : 50%; }
+        .pasta_b{background :rgba(0, 0, 0, 0.2); font-size : 20px; color : #000; font-weight : 500; }
+        .pasta_s { display : none; }
+
+        #footer_wrap{  width : 100%; height : 150px;}
+        #footer{ width : 100%; height : 150px; margin: 0 auto;}
+
+        .f_logo{width : 20%; padding : 50px 30px 0 0; }
+        .f_logo img{ max-width : 100%; height : auto; }
+        .foot_text{ padding : 45px 0px 0 0; font-size : 12px;  }
+        .f_sns{ padding : 45px 20px 0 0; font-size : 1.6rem;}
+}
